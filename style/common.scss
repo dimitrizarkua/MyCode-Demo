@@ -1,0 +1,101 @@
+@import "./_vars";
+@import "_mixins";
+
+.invisible {
+  opacity: 0;
+}
+
+.view-enter {
+  @include smooth-fade-in-up(0s, 0.5s, ease-in);
+   z-index: 1;
+ }
+
+// fix form inline
+.form-inline > * {
+   margin:5px 3px;
+}
+
+// fix
+.panel-heading {
+  z-index: 1 !important;
+}
+
+// fix
+.btn {
+  margin: {
+    left: 2px;
+    right: 2px;
+  }
+}
+
+// fix
+.well {
+    padding: 7px;
+}
+
+// fix
+input[type="radio"],
+input[type="checkbox"] {
+  margin-right: 2px;
+  margin-bottom: 0px;
+  margin-left: 2px;
+  margin-top: 2px;
+}
+
+.cm-login-panel {
+  width: 30%;
+  margin-top: 50px;
+  margin-left: 35%;
+}
+
+.cm-login-logo {
+  width: 300px
+}
+
+@media screen and (max-width: 560px) {
+  .cm-login-panel {
+    width: 90%;
+    margin-top: 20px;
+    margin-left: 5%;
+  }
+  .cm-login-logo {
+    width: 150px
+  }
+}
+
+div.popover {
+  max-width: 512px;
+}
+
+.popover .popover-title {
+  color: black;
+}
+
+.popover .popover-content {
+  color: black;
+}
+
+.larger .btn-lg {
+  font-size: 28px;
+  padding: 16px 32px;
+}
+
+.larger .bootstrap-switch.bootstrap-switch-large .bootstrap-switch-label {
+  font-size: 26px;
+}
+.larger .bootstrap-switch.bootstrap-switch-large .bootstrap-switch-handle-on {
+  font-size: 26px;
+}
+.larger .bootstrap-switch.bootstrap-switch-large .bootstrap-switch-handle-off {
+  font-size: 26px;
+}
+
+body .st-sort-ascent:after,
+body .st-sort-descent:after {
+  border-bottom-color: white;
+}
+
+.table-responsive {
+  max-height: 700px;
+  overflow: auto;
+}

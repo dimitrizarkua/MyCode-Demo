@@ -1,0 +1,5 @@
+@import 'react-datepicker/dist/react-datepicker.css';
+
+.react-datepicker-wrapper {
+  color: black;
+}

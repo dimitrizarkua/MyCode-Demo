@@ -1,0 +1,11 @@
+@import "./common.scss";
+@import "../containers/app/app";
+@import "../views/home/home";
+@import "../views/calc/calc";
+@import "../views/kyc/kyc";
+@import "./datepicker/datepicker";
+// components
+@import "../components/aside/asideLeft/asideLeft";
+@import "../components/priceTicker/ticker/ticker";
+
+@import "toastr/build/toastr.css";

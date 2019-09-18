@@ -1,0 +1,9 @@
+.ga-kyc-picture {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  overflow: scroll !important;
+  overflow-x: scroll !important;
+  overflow-y: scroll !important;
+}
